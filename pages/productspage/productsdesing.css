@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFF1FF
+}
+
+.sert {
+    position: fixed;
+    top: 165px;
+    left: 100px;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.421);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 380px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.products-sec {
+    position: relative;
+    left: 400px;
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: auto;
+}
+
+.sertinput {
+    padding-left: 5px;
+    width: 65%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.search-icon {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #7F3F98;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+}
+
+.search-icon:hover {
+    background-color: #aa39d7;
+}
+
+.search-sert {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.underline {
+    margin-top: 10px;
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+}
+
+.checkbox {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.checkbox-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-div p {
+    font-size: 18px;
+}
+
+.maxminprices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+}
+
+.minmaxpricediv {
+    margin-top: 10px;
+}
+
+.sertdiv{
+    width: 100%;
+}
+
+.sertdiv p {
+    width: 155px;
+    position: relative;
+    left: 45px;
+}
+
+.checkbox-is {
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1500px;
+    height: auto;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.product-card {
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.266);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card-img {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-stars {
+    color: gold;
+}
+
+.card-brand {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-gender {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-sell {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-more-btn {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.card-more-btn:hover {
+    background-color: rgb(0, 162, 255);
+}
+

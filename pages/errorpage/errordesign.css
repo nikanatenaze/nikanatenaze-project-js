@@ -1,0 +1,24 @@
+.Error-page {
+    width: 100%;
+    height: 88.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.Error-page p {
+    font-size: 80px;
+    color: red;
+}
+
+.Error-page p span {
+    font-size: 80px;
+    color: black !important;
+}
+
+.Error-page span {
+    font-size: 30px;
+    
+}

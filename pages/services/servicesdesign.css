@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #191a2b; /* Keep original background color */
+}
+
+.service-wrapper {
+    padding: 5% 8%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    -webkit-text-stroke-color: transparent;
+    letter-spacing: 4px;
+    background-color: purple;
+    background: linear-gradient(8deg, rgb(63, 8, 83) 0%, rgb(241, 12, 154)41%,rgb(29, 28, 30)) 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   position: relative;
+}
+
+h1:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    height: 8px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+h1 span {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: purple;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim {
+    95% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        left: 89%;
+    }
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.card {
+    height: 330px;
+    width: 370px;
+    background-color: rgb(0, 0, 0); 
+    padding: 3% 8%;
+    border: 0.2px solid rgba(114, 226, 174, 0.2);
+    border-radius: 8px;
+    transition: .6s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:after {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: -200px;
+    width: 120%;
+    transform: rotate(50deg);
+    background-color: white;
+    height: 18px;
+    filter: blur(30px);
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.card:hover:after {
+    width: 225%;
+    top: -100%;
+}
+
+.card i {
+    color: #e272b9; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 4.8rem;
+}
+
+.card h2 {
+    color: white; 
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card p {
+    text-align: left;
+    width: 100%;
+    margin: 12px 0;
+    color: #ffffff; 
+}
+
+.card:hover {
+    background-color: transparent;
+    transform: translateY(-8px);
+    border-color: blueviolet;
+}
+
+.card:hover i {
+    color:purple;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

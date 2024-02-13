@@ -1,5 +1,5 @@
 
-(function()) 
+(function(){}) 
 
 	function init(item) {
 		var items = item.querySelectorAll('li'),
