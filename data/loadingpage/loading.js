@@ -8,7 +8,7 @@ function randomtime() {
 
 function changepage() {
     if(location.pathname === "/data/loadingpage/loading.html"){
-        window.location.pathname = "../../index.html"
+        window.location.href = "../../index.html"
     }
 }
 
