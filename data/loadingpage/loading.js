@@ -13,9 +13,5 @@ function changepage() {
 }
 
 setInterval(() => {
-    
-}, 300);
-
-setInterval(() => {
     changepage()
 }, randomtime());
