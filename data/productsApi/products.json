@@ -5,7 +5,8 @@
         "brand": "Dolce & Gabbana",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 48% Off"
+        "sell": "Up to 48% Off",
+        "price": 208
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/61100w.webp",
@@ -13,7 +14,8 @@
         "brand": "Versace",
         "stars": 4,
         "gender": "Women",
-        "sell": "Up to 37% Off"
+        "sell": "Up to 37% Off",
+        "price": 151
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/74036m.webp",
@@ -21,7 +23,8 @@
         "brand": "Armaf",
         "stars": 5,
         "gender": "Man",
-        "sell": "As low as $ 33.99"
+        "sell": "As low as $ 33.99",
+        "price": 130
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/352m.webp",
@@ -29,7 +32,8 @@
         "brand": "Calvin Klein",
         "stars": 4,
         "gender": "Man",
-        "sell": "Up to 49% Off"
+        "sell": "Up to 49% Off",
+        "price": 144
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/1099w.webp",
@@ -37,7 +41,8 @@
         "brand": "Elizabeth Arden",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 62% Off"
+        "sell": "Up to 62% Off",
+        "price": 218
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/352w.webp",
@@ -45,7 +50,8 @@
         "brand": "Calvin Klein",
         "stars": 3,
         "gender": "Women",
-        "sell": "Up to 57% Off"
+        "sell": "Up to 57% Off",
+        "price": 95
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/1002m.webp",
@@ -53,7 +59,8 @@
         "brand": "Calvin Klein",
         "stars": 5,
         "gender": "Man",
-        "sell": "Up to 64% Off"
+        "sell": "Up to 64% Off",
+        "price": 245
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/485w.webp",
@@ -61,7 +68,8 @@
         "brand": "Clinique",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 55% Off"
+        "sell": "Up to 55% Off",
+        "price": 173
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/238m.webp",
@@ -69,7 +77,8 @@
         "brand": "Guy Laroche",
         "stars": 4,
         "gender": "Man",
-        "sell": "Up to 59% Off"
+        "sell": "Up to 59% Off",
+        "price": 134
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/69867m.webp",
@@ -77,7 +86,8 @@
         "brand": "Versace",
         "stars": 4,
         "gender": "Man",
-        "sell": "Up to 32% Off"
+        "sell": "Up to 32% Off",
+        "price": 57
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/1349w.webp",
@@ -85,7 +95,8 @@
         "brand": "Elizabeth Taylor",
         "stars": 4,
         "gender": "Women",
-        "sell": "Up to 66% Off"
+        "sell": "Up to 66% Off",
+        "price": 172
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/1002w.webp",
@@ -93,7 +104,8 @@
         "brand": "Calvin Klein",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 69% Off"
+        "sell": "Up to 69% Off",
+        "price": 283
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/67930w.webp",
@@ -101,7 +113,8 @@
         "brand": "Jimmy Choo",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 60% Off"
+        "sell": "Up to 60% Off",
+        "price": 88
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/127m.webp",
@@ -109,7 +122,8 @@
         "brand": "Davidoff",
         "stars": 5,
         "gender": "Man",
-        "sell": "Up to 58% Off"
+        "sell": "Up to 58% Off",
+        "price": 266
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/72121w.webp",
@@ -117,7 +131,8 @@
         "brand": "Jimmy Choo",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 62% Off"
+        "sell": "Up to 62% Off",
+        "price": 48
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/610m.webp",
@@ -125,7 +140,8 @@
         "brand": "Giorgio Armani",
         "stars": 4,
         "gender": "Man",
-        "sell": "Up to 38% Off"
+        "sell": "Up to 38% Off",
+        "price": 298
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/104m.webp",
@@ -133,7 +149,8 @@
         "brand": "Calvin Klein",
         "stars": 5,
         "gender": "Unisex",
-        "sell": "Up to 48% Off"
+        "sell": "Up to 48% Off",
+        "price": 78
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/60582w.webp",
@@ -141,7 +158,8 @@
         "brand": "Juicy Couture",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 57% Off"
+        "sell": "Up to 57% Off",
+        "price": 149
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/64143w.webp",
@@ -149,7 +167,8 @@
         "brand": "Christian Dior",
         "stars": 5,
         "gender": "Men",
-        "sell": "Up to 67% Off"
+        "sell": "Up to 67% Off",
+        "price": 206
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/73223m.webp",
@@ -157,7 +176,8 @@
         "brand": "Clinique",
         "stars": 4,
         "gender": "Women",
-        "sell": "As low as $ 41.08"
+        "sell": "Up to 68% Off",
+        "price": 229
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/684w.webp",
@@ -165,7 +185,8 @@
         "brand": "Calvin Klein",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 53% Off"
+        "sell": "Up to 53% Off",
+        "price": 30
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/60332w.webp",
@@ -173,7 +194,8 @@
         "brand": "Davidoff",
         "stars": 3,
         "gender": "Women",
-        "sell": "Up to 71% Off"
+        "sell": "Up to 71% Off",
+        "price": 50
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/127w.webp",
@@ -181,7 +203,8 @@
         "brand": "Azzaro",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 72% Off"
+        "sell": "Up to 72% Off",
+        "price": 32
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/94m.webp",
@@ -189,7 +212,8 @@
         "brand": "Estee Lauder",
         "stars": 5,
         "gender": "Man",
-        "sell": "Up to 55% Off"
+        "sell": "Up to 55% Off",
+        "price": 42
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/1061w.webp",
@@ -197,7 +221,8 @@
         "brand": "Mont Blanc",
         "stars": 4,
         "gender": "Women",
-        "sell": "Up to 53% Off"
+        "sell": "Up to 53% Off",
+        "price": 48
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/69258m.webp",
@@ -205,7 +230,8 @@
         "brand": "Mont Blanc",
         "stars": 5,
         "gender": "Women",
-        "sell": "Up to 68% Off"
+        "sell": "Up to 68% Off",
+        "price": 45
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/77021m.webp",
@@ -213,7 +239,8 @@
         "brand": "Dolce & Gabbana",
         "stars": 3,
         "gender": "Man",
-        "sell": "Up to 49% Off"
+        "sell": "Up to 49% Off",
+        "price": 31
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/884m.webp",
@@ -221,7 +248,8 @@
         "brand": "Jessica McClintock",
         "stars": 4,
         "gender": "Women",
-        "sell": "Up to 43% Offf"
+        "sell": "Up to 43% Offf",
+        "price": 35
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/568w.webp",
@@ -229,7 +257,8 @@
         "brand": "Lattafa",
         "stars": 5,
         "gender": "Man",
-        "sell": "Up to 66% Off"
+        "sell": "Up to 66% Off",
+        "price": 40
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/60582w.webp",
@@ -237,7 +266,8 @@
         "brand": "Guy Laroche",
         "stars": 5,
         "gender": "Women",
-        "sell": "As low as $ 30.27"
+        "sell": "As low as $ 30.27",
+        "price": 30
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/1061w.webp",
@@ -245,7 +275,8 @@
         "brand": "Mont Blanc",
         "stars": 4,
         "gender": "Man",
-        "sell": "Up to 49% Off"
+        "sell": "Up to 49% Off",
+        "price": 33
     },
     {
         "image": "https://img.fragrancex.com/images/products/sku/small/73223m.webp",
@@ -253,6 +284,7 @@
         "brand": "Clinique",
         "stars": 4,
         "gender": "Women",
-        "sell": "Up to 68% Off"
+        "sell": "Up to 68% Off",
+        "price": 49
     }
 ]

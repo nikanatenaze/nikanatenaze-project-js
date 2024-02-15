@@ -75,7 +75,8 @@ h1 span {
 }
 
 .card {
-    height: 330px;
+    cursor: pointer;
+    height: 350px;
     width: 370px;
     background-color: rgb(0, 0, 0); 
     padding: 3% 8%;
