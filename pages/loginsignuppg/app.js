@@ -51,9 +51,10 @@ let loginpasswordinput = document.getElementById("login-passowrd")
 formsigninbtn.addEventListener("click", function(){
 	if (loginemailinput.value === localStorage.getItem("UserMail") && loginpasswordinput.value === localStorage.getItem("UserPassword")) {
 		localStorage.setItem("Logined", "ki")
+		localStorage.setItem("Clicked", window.location.pathname)
 		loginemailinput.value = ""
 		loginpasswordinput.value = ""
-		window.location.href = "../../index.html"
+		window.location.href = "../../data/loadingpage/loading.html"
 		
 	} else {
 		Swal.fire({

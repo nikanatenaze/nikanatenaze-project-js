@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.body {
+
+}
+
 .main-wrapper{
   max-width: 100%;
   width: 100%;
@@ -117,6 +121,11 @@
 /* top sells */
 
 .top-sells {
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #e3e3e3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -125,7 +134,6 @@
   height: auto;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #EFF1FF;
 }
 
 .top-sells-title {
@@ -146,6 +154,7 @@
 }
 
 .top-sells-products {
+  
   margin-top: 20px;
   gap: 40px;
   width: 70%;
@@ -157,6 +166,7 @@
 }
 
 .top-sells-product {
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -295,6 +305,11 @@
 /* factorx */
 
 .thexfactor {
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #e3e3e3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,7 +319,6 @@
   height: auto;
   padding-top: 110px;
   padding-bottom: 110px;
-  background-color: #EDEFEB;
 }
 
 .thexfactor-title {
@@ -346,7 +360,7 @@
 
 .li-text {
   color: black;
-  width: 219px;
+  width: 249px;
   font-size: 17px;
 }
 
@@ -378,6 +392,13 @@ ul {
 background: #151414;
 position: relative;
 }
+
+.slides-h1-2 {
+  position: relative;
+  top: 115px !important;
+  width: 500px !important;
+}
+
 .footer-cta {
 border-bottom: 1px solid #373636;
 }

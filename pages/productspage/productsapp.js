@@ -14,7 +14,7 @@ function getcards(e) {
         <p class="card-gender">${element.gender}'s</p>
         <p class="card-sell">${element.sell}</p>
         <p class="card-sell">price: ${element.price}$</p>
-        <button class="card-more-btn">More</button>
+        <button class="card-more-btn">Shop Now <i class="fa-solid fa-cart-shopping"></i></button>
     </div>`
     });
 }
@@ -59,7 +59,7 @@ sertsearchbtn.addEventListener("click", function(){
                 <p class="card-gender">${info.gender}'s</p>
                 <p class="card-sell">${info.sell}</p>
                 <p class="card-sell">price: ${info.price}$</p>
-                <button class="card-more-btn">More</button>
+                <button class="card-more-btn">Shop Now <i class="fa-solid fa-cart-shopping"></i></button>
             </div>`
             }
         })
@@ -74,7 +74,7 @@ sertsearchbtn.addEventListener("click", function(){
                 <p class="card-gender">${info2.gender}'s</p>
                 <p class="card-sell">${info2.sell}</p>
                 <p class="card-sell">price: ${info2.price}$</p>
-                <button class="card-more-btn">More</button>
+                <button class="card-more-btn">Shop Now <i class="fa-solid fa-cart-shopping"></i></button>
             </div>`
             })
         }
