@@ -15,21 +15,24 @@ body {
 .pagesd {
     width: 100%;
     height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .sert {
-    position: fixed;
-    top: 165px;
-    left: 50px;
+    position: sticky;
+    top: 100px;
+    left: 55px;
     box-shadow: 5px 5px 15px 1px rgba(106, 106, 106, 0.347);
+    width: 380px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 380px;
+
     height: 680px;
     background-color: white;
     border-radius: 20px;
@@ -138,17 +141,22 @@ body {
     width: 80%;
 }
 
+.page {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
 .cards {
+    width: 1500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 1500px;
-    height: auto;
     gap: 30px;
-    padding-bottom: 50px;
-    margin-top: 53px;
-    margin-left: 350px;
+    flex-wrap: wrap;
 }
 
 .product-card {
