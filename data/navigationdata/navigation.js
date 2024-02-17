@@ -39,3 +39,27 @@ logoutnav.addEventListener("click", function(){
 checklogins()
 
 setInterval(checklogins(), 1000)
+
+// user image 
+
+let navuserimage = document.querySelector(".user-image")
+let navimgatribute = document.createAttribute("src")
+navimgatribute.value = localStorage.getItem("Userimage")
+
+
+let checkas = localStorage.getItem("Userimage")
+
+console.log(Boolean(checkas));
+
+setInterval(() => {
+    if (checkas) {
+        navusername.innerText = localStorage.getItem("UserName")
+        navimgatribute.value = localStorage.getItem("Userimage")
+        navuserimage.setAttributeNode(navimgatribute)
+    }
+    else {
+        window.location.reload
+        navimgatribute.value = "https://static-00.iconduck.com/assets.00/profile-circle-icon-1023x1024-ucnnjrj1.png"
+    }
+}, 100);
+    

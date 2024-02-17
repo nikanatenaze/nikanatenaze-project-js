@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #e3e3e3;
+  background-image: radial-gradient(rgba(12, 12, 12, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+}
+
+.profilepg {
+    width: 100%;
+    height: 88.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilecard {
+    width: 850px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.266);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.profilecard-img {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 38%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    --s: 100px; /* control the size */
+  --c1: #37547f;
+  --c2: #1b1b3a;
+
+  --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
+    var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
+    var(--c1) 76% 84%, var(--c2) 86% 94%;
+  background: radial-gradient(
+      100% 100% at 100% 0,
+      var(--c1) 4%,
+      var(--_g),
+      #0008 96%,
+      #0000
+    ),
+    radial-gradient(
+        100% 100% at 0 100%,
+        #0000,
+        #0008 4%,
+        var(--_g),
+        var(--c1) 96%
+      )
+      var(--c1);
+  background-size: var(--s) var(--s);
+}
+
+.profilecard-img-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.image-input {
+    display: none;
+}
+
+.upload-image-label {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #7F3F98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all ease;
+}
+
+.upload-image-label:hover {
+    background-color: #b35ad6;
+}
+
+.change-info {
+    width: 62%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.change-info-inputs {
+    border-radius: 10px;
+    border-radius: 0.1px solid black;
+    padding-left: 5px;
+    height: 50px;
+    width: 80%;
+}
+
+.save-button {
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7F3F98;
+    transition: 0.3s all ease;
+    color: white;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #b35ad6;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-div {
+    width: 78%;
+}

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .spinner {
+    margin-top: 20px;
     width: 70.4px;
     height: 70.4px;
     --clr: rgb(247, 197, 159);
@@ -78,14 +79,15 @@
   }
 
   .loading p {
-    margin-top: 50px;
-    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 80px;
+    font-size: 22px;
     color: white;
   }
 
   .loading-div {
 
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: rgb(46, 45, 45);
     width: 500px;
     height: 350px;
@@ -96,6 +98,7 @@
   }
 
   .back-btna {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     width: 100%;
     color: white;
@@ -112,5 +115,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 10px;
   }

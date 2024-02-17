@@ -316,8 +316,15 @@
 }
 
 .user-image {
-    width: 40px;
+    margin: 5px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+}
+
+.useryl {
+    color: white;
 }
 
 @media screen and (max-width: 1170px) {
