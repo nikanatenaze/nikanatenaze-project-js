@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
-.body {
+/* dark theme start */
 
+:root {
+  --prime-color: #e3e3e3;
+  --prime-color-2: white;
+  --text-color: black;
+}
+
+
+.dark-theme {
+  --prime-color: #424242;
+  --prime-color-2: #24262B;
+  --text-color: white;
+}
+
+/* dark theme end */
+
+a {
+  color: rgb(155, 60, 182);
+  text-decoration: none;
 }
 
 .main-wrapper{
@@ -94,14 +112,14 @@
   justify-content: space-around;
   width: 100%;
   height: 96px;
-  background-color: white;
+  background-color: var(--prime-color-2);
 }
 
 .secabout-in {
   align-items: center;
   justify-content: center;
   display: flex;
-  color: black;
+  color: var(--text-color);
 }
 
 .secabout-in img {
@@ -114,7 +132,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: black;
+  color: var(--text-color);
   font-size: 20px;
 }
 
@@ -122,7 +140,7 @@
 
 .top-sells {
   --color: rgba(114, 114, 114, 0.3);
-  background-color: #e3e3e3;
+  background-color: var(--prime-color);
   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
   background-size: 55px 55px;
@@ -137,7 +155,7 @@
 }
 
 .top-sells-title {
-  color: black;
+  color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,6 +247,7 @@
 /* best seller */ 
 
 .best-seller {
+  background-color: var(--prime-color-2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -251,7 +270,7 @@
 .bsel-title {
   text-align: center;
   font-size: 45px;
-  color: black;
+  color: var(--text-color);
 }
 
 .text-bsel a {
@@ -292,21 +311,21 @@
 
 .sellproductlist-li-txtdiv-1 {
   font-size: 25px;
-  color: black;
+  color: var(--text-color);
   font-weight: bold;
 
 }
 
 .sellproductlist-li-txtdiv-2, .sellproductlist-li-txtdiv-3 {
   font-size: 18px;
-  color: black;
+  color: var(--text-color);
 }
 
 /* factorx */
 
 .thexfactor {
   --color: rgba(114, 114, 114, 0.3);
-  background-color: #e3e3e3;
+  background-color: var(--prime-color);
   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
   background-size: 55px 55px;
@@ -334,11 +353,11 @@
 .thexfactor-title-title {
   font-size: 40px;
   font-weight: bold;
-  color: black;
+  color: var(--text-color);
 }
 
 .thexfactor-title-untitle {
-  color: black;
+  color: var(--text-color);
   font-size: 20px;
 }
 
@@ -354,12 +373,12 @@
 }
 
 .li-title {
-  color: black;
+  color: var(--text-color);
   font-size: 24px;
 }
 
 .li-text {
-  color: black;
+  color: var(--text-color);
   width: 249px;
   font-size: 17px;
 }
@@ -373,6 +392,18 @@
   justify-content: center;
   gap: 100px;
   flex-wrap: wrap;
+}
+
+.image-icon-mun {
+  width: 100%;
+  height: 100%;
+}
+
+.switcha {
+  position: relative;
+  right: 25px;
+  font-size: 21px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 755px) {

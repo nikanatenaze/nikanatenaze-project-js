@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
+/* dark theme start */
+
+:root {
+	--prime-color: #e3e3e3;
+	--prime-color-2: white;
+	--text-color: black;
+  }
+  
+  
+  .dark-theme {
+	--prime-color: #424242;
+	--prime-color-2: #24262B;
+	--text-color: white;
+  }
+  
+  /* dark theme end */
+
 body {
-  background-color: #e3e3e3;
+  background-color: var(--prime-color);
   background-image: radial-gradient(rgba(12, 12, 12, 0.171) 2px, transparent 0);
   background-size: 30px 30px;
   background-position: -5px -5px;
@@ -20,9 +37,10 @@ body {
 }
 
 .profilecard {
+    color: var(--text-color);
     width: 850px;
     height: 550px;
-    background-color: white;
+    background-color: var(--prime-color-2);
     border-radius: 20px;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.266);
     display: flex;

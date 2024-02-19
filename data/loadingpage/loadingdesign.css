@@ -3,6 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* dark theme start */
+
+:root {
+	--prime-color: #e3e3e3;
+	--prime-color-2: #24262B;
+	--text-color: black;
+  }
+  
+  
+  .dark-theme {
+	--prime-color: #424242;
+	--prime-color-2: #24262B;
+	--text-color: white;
+  }
+  
+  /* dark theme end */
+
+
 .spinner {
     margin-top: 20px;
     width: 70.4px;
@@ -66,7 +85,7 @@
   .loading {
     width: 100%;
     --color: rgba(114, 114, 114, 0.3);
-    background-color: #e3e3e3;
+    background-color: var(--prime-color);
     background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
         linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
     background-size: 55px 55px;
@@ -88,7 +107,7 @@
   .loading-div {
 
     border-radius: 20px;
-    background-color: rgb(46, 45, 45);
+    background-color: var(--prime-color-2);
     width: 500px;
     height: 350px;
     display: flex;
