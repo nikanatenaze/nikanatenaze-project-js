@@ -414,3 +414,9 @@
     /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
     box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
   }
+
+  .time {
+    left: 220px;
+    position: absolute;
+    width: auto;
+  }

@@ -62,4 +62,26 @@ setInterval(() => {
         navimgatribute.value = "https://static-00.iconduck.com/assets.00/profile-circle-icon-1023x1024-ucnnjrj1.png"
     }
 }, 100);
-    
+
+let time = document.getElementById("time-data")
+let timet = document.getElementById("time-time")
+
+const data = new Date()
+let fistdates = `${String(data.getDay())}.${String(data.getMonth())}.${String(data.getFullYear())}`
+let secdates = `${checktime()}`
+
+function checktime(){
+    let asb
+    if(data.getMinutes < 10) {
+       asb = `${String(data.getHours())}:0${String(data.getMinutes())}`
+    }
+    else {
+       asb = `${String(data.getHours())}:${String(data.getMinutes())}`
+    }
+    return asb
+}
+
+console.log(data.getMinutes() < 10);
+
+time.innerText = fistdates
+timet.innerText = secdates
